@@ -1,0 +1,53 @@
+/* 공통부분 */
+*{padding : 0; margin: 0 auto;}
+ul{list-style: none;}
+.space{clear: both;}
+
+/* 헤더부분 */
+.logo{width: 100%; text-align: center; padding: 20px 0;}
+.menubar{width: 100%; height: 50px; background-color: #386254; }
+.menu{width: 1088px; margin: 0 auto; color: #fff; text-align: center;}
+.menu>li{float: left; width: calc(100%/5); line-height: 50px;}
+.menu>li>a{color: #fff; text-decoration: none;}
+    
+/* 메인이미지부분 */
+.mainimg{width: 100%; height: 526px;background-image: url(../img/mainimg.jpg) ; background-repeat: no-repeat; background-position: center center;}
+
+/* 콘텐츠부분 */
+.inner{width: 1088px; margin: 0 auto; padding-top: 2cqmax;}
+.box1>.inner>h2{text-align: center; padding-top: 82px;}
+.box1_set{padding-top: 28px;}
+.box1_set>.list{float: left; width: calc(100%/3 - 2%) ; margin: 0 1.5%;}
+.box1_set>.list:nth-child(1){margin-left: 0;}
+.box1_set>.list:nth-child(3){margin-right: 0;}
+.box1_set>.list>div>img{width: 100%;}
+.box1_set>.list>h3{padding-top: 10px;}
+.box1_set>.list>p{font-size: 13px; padding-top: 10px;}
+.btn{width: 100%; height:  40px ;background-color: #386254; color: #fff; text-align: center; line-height: 40px; margin-top: 10px;}
+
+.box2>.inner>h2{text-align: center; padding-top: 82px;}
+.box2>.inner>ul{padding-top: 28px;}
+.box2>.inner>ul>li{float: left; width: calc(100%/4 - 2%); height: 50px; background-color: #d16e44; border-radius: 50px; text-align: center; color: #fff; line-height: 50px;  margin: 0 1.333333% 2%;}
+.box2>.inner>ul>li:nth-child(1), .box2>.inner>ul>li:nth-child(5){margin-left: 0;}
+.box2>.inner>ul>li:nth-child(4), .box2>.inner>ul>li:nth-child(8){margin-right: 0;}
+
+.box3{margin-top: 82px;}
+.box3_banner>.img{width: 100%;}
+
+/* 푸터부분 */
+.footer{width: 100%; height: 206px; background-color: #535353; color: #fff; margin-top: 60px;}
+.copyright{float: left; font-size: 13px; padding-top: 40px;}
+.sns{float: right; padding-top: 40px; }
+.sns>li{float: left; padding-left: 10px;}
+
+/* 서브1부분 */
+.sub1_mainimg{width: 100%; height: 230px; background-image: url(../img/sub_img.jpg); background-repeat: no-repeat; background-position: center center; background-size: 100%;}
+
+.sub1_contents>.inner{width: 1088px; height: 528px; position: relative; margin: 0 auto;}
+.sub_box1{position: absolute; top: 50px; left: 0;width: 100%;}
+.sub_box1>.sub1_infoimg{float: left;  padding-top: 50px}
+.sub_box1>.sub1_infotext{float: right; color : #386254; padding-top: 80px; position: absolute;left: 44%;}
+.sub_box2{position: absolute ; bottom: 50px; right: 0;width: 100%;}
+.sub_box2>.sub2_infotext{float: left;  color : #386254;     width: 36%; bottom: 20%; position: absolute; right: 20%;}
+.sub_box2>.sub2_infoimg{float: right;  padding-right: 0; padding-top: 61px;}
+
