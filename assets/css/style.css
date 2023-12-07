@@ -226,7 +226,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .mobile-nav .get-started a {
-  background: #eb5d1e;
+  background: #DAABCE;
   color: #fff;
   border-radius: 50px;
   margin: 15px;
@@ -234,7 +234,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .mobile-nav .get-started a:hover {
-  background: #ee7843;
+  background: #edcee5;
   color: #fff;
 }
 
