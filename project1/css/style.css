@@ -1,4 +1,9 @@
 /* 공통 */
+@media screen and (max-width: 768px) {
+    [data-aos-delay] {
+      transition-delay: 0 !important;
+    }
+  }
 *{margin: 0; padding: o;}
 .space{clear: both;}
 .wrap{width: 1920px; margin: 0 auto;}
